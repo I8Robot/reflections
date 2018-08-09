@@ -1,0 +1,21 @@
+What happens when you initialize a repository? Why do you need to do it?
+   创建了一个git repository。为了跟踪文件的修改
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+   staging area是一个中间位置，git add的文件会放到staging area。git commit是提交
+   到repository。增加staging area可以一次commit提交多个文件，通过add多个文件到staging
+   然后commit把Staging area中的文件提交到repository中。
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
