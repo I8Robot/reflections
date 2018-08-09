@@ -8,7 +8,7 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
+   每进行一次逻辑修改，就git add一次，然后git commit
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
