@@ -6,7 +6,7 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    这样不会太频繁，而且git不知道我要什么时候应该push和pull
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
