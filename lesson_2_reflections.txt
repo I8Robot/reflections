@@ -17,6 +17,10 @@ How do the diagrams help you visualize the branch structure?
    是不同的
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+   1、合并分支是将两个分支上的修改合并到一起。通过两个分支最后的两个节点做比较，
+   并以两个分支分开之前的节点作为参考进行合并。合并结果会放到检出的分支，因
+   此如果要合并到那个分支就checkout到那个分支。
+   2、在图形中表示合并的方式，是因为合并并没有把之前的commit都删除或者整合到
+     同一个分支，只是把代码的修改整合到一起，之前的提交都还保留，方便查看。
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
