@@ -24,3 +24,5 @@ the diagram the way we do?
      同一个分支，只是把代码的修改整合到一起，之前的提交都还保留，方便查看。
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+   自动合并可以又git自己完成，不需要人工，节省人力和时间，但是自动合并无法确定是否正确
+   人工合并可以确定修改是否是必要的，正确的，以及如何合并。
