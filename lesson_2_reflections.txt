@@ -11,7 +11,7 @@ change?
    每进行一次逻辑修改，就git add一次，然后git commit
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+  修改bug，尝试新特性
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
